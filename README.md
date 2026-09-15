@@ -49,7 +49,7 @@ npm run build
 npm start
 ```
 
-Type-check:
+Lint / type-check:
 
 ```bash
 npm run lint
