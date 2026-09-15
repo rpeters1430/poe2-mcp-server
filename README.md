@@ -16,8 +16,8 @@ Important: the main app is a studio/demo environment. It does **not** currently 
 
 ## Requirements
 
-- Node.js
-- npm
+- Node.js 20+ recommended
+- npm 10+ recommended
 
 ## Local setup
 
@@ -37,10 +37,6 @@ npm run dev
 ```
 
 Then open the URL printed by the server at startup.
-
-```text
-http://localhost:3000
-```
 
 Production build:
 
