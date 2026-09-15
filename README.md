@@ -26,7 +26,7 @@ npm install
 cp .env.example .env
 ```
 
-Optional: set `GEMINI_API_KEY` in `.env` if you want Gemini-backed responses. If you do not set it, the AI endpoints still respond by using the built-in sample logic already implemented in `/home/runner/work/poe2-mcp-server/poe2-mcp-server/server.ts`.
+Optional: set `GEMINI_API_KEY` in `.env` if you want Gemini-backed responses. If you do not set it, the AI endpoints still respond by using the built-in sample logic already implemented in `server.ts`.
 
 ## Run the app
 
