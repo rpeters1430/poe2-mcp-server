@@ -1,0 +1,6 @@
+{
+  "name": "PoE2 AI Companion & MCP Server Studio",
+  "description": "Connect AI models like Codex CLI and Claude to Path of Exile 2 character stats, live inventory, and game event tracking via Model Context Protocol (MCP) and compliant APIs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
