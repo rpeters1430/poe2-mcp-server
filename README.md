@@ -26,7 +26,7 @@ npm install
 cp .env.example .env
 ```
 
-Optional: set `GEMINI_API_KEY` in `.env` if you want Gemini-backed responses. If you do not set it, the app falls back to its local deterministic response logic.
+Optional: set `GEMINI_API_KEY` in `.env` if you want Gemini-backed responses. If you do not set it, the AI endpoints still respond by using the built-in sample logic already implemented in `/home/runner/work/poe2-mcp-server/poe2-mcp-server/server.ts`.
 
 ## Run the app
 
@@ -36,7 +36,7 @@ Development:
 npm run dev
 ```
 
-Then open:
+Then open the app on the default server port:
 
 ```text
 http://localhost:3000
@@ -81,7 +81,7 @@ After starting the app, use the browser UI to:
 
 ### Standalone MCP script
 
-The generated script is intended for stdio MCP clients such as Codex CLI or Claude Desktop.
+The generated script is intended for stdio MCP clients such as Codex CLI or Claude Desktop that support MCP tool discovery and tool calls over standard input/output.
 
 Typical flow:
 
