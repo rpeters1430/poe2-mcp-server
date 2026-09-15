@@ -77,7 +77,12 @@ After starting the app, use the browser UI to:
 
 ### Standalone MCP script
 
-The generated script is intended for stdio MCP clients such as Codex CLI or Claude Desktop that support MCP tool discovery and tool calls over standard input/output.
+The generated script is intended for stdio MCP clients such as Codex CLI or Claude Desktop that:
+
+- can launch a local Node.js process
+- can connect to MCP servers over standard input/output
+- support MCP tool discovery and tool invocation
+- can pass environment variables when needed, especially `POE2_LOG_PATH` for live log-file usage
 
 Typical flow:
 
