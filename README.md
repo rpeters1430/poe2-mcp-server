@@ -36,7 +36,7 @@ Development:
 npm run dev
 ```
 
-Then open the app on the default server port:
+Then open the URL printed by the server at startup. In the current implementation, the app listens on port `3000`.
 
 ```text
 http://localhost:3000
@@ -49,7 +49,7 @@ npm run build
 npm start
 ```
 
-Lint / type-check:
+Type-check:
 
 ```bash
 npm run lint
