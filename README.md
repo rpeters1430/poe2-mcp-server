@@ -130,7 +130,11 @@ If a feature needs memory access, input injection, or automation to work, it sho
 
 ### Compliance note
 
-This repository includes language and UI intended to enforce an advisory-only model, but you are still responsible for how you run or extend it. Re-check the current GGG Terms of Use and Fair Play policy before using any live game integration.
+This repository includes language and UI intended to enforce an advisory-only model, but you are still responsible for how you run or extend it. Before using any live game integration, review the current official GGG policy sources:
+
+- Terms of Use: https://www.pathofexile.com/legal/terms-of-use
+- Code of Conduct: https://www.pathofexile.com/legal/code-of-conduct
+- Macro guidance: https://www.pathofexile.com/forum/view-thread/2077975
 
 ## Repository commands
 
